@@ -1,0 +1,11 @@
+.mobile-menu {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  
+  .mobile-menu.open {
+    max-height: 500px; /* Arbitrary value to allow for full menu height */
+    opacity: 1;
+  }
